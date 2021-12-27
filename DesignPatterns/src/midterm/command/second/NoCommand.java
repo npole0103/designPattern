@@ -1,0 +1,12 @@
+package midterm.command.second;
+
+public class NoCommand implements Command {
+	@Override
+	public void execute() {
+	}
+
+	@Override
+	public void undo() {
+	}
+
+}
